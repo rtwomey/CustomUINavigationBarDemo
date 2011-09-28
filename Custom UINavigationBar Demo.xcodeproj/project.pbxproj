@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22C600D14337C38002555F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22C600C14337C38002555F5 /* UIKit.framework */; };
+		E22C600F14337C38002555F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22C600E14337C38002555F5 /* Foundation.framework */; };
+		E22C601114337C38002555F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22C601014337C38002555F5 /* CoreGraphics.framework */; };
+		E22C601714337C38002555F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E22C601514337C38002555F5 /* InfoPlist.strings */; };
+		E22C601914337C38002555F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C601814337C38002555F5 /* main.m */; };
+		E22C601D14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */; };
+		E22C602014337C38002555F5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C601E14337C38002555F5 /* MainWindow.xib */; };
+		E22C602314337C38002555F5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C602214337C38002555F5 /* FirstViewController.m */; };
+		E22C602614337C38002555F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C602514337C38002555F5 /* SecondViewController.m */; };
+		E22C602914337C38002555F5 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C602714337C38002555F5 /* FirstView.xib */; };
+		E22C602C14337C38002555F5 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C602A14337C38002555F5 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E22C600814337C38002555F5 /* Custom UINavigationBar Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom UINavigationBar Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22C600C14337C38002555F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E22C600E14337C38002555F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E22C601014337C38002555F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E22C601414337C38002555F5 /* Custom UINavigationBar Demo-Info.plist */ = {isa = PBXFileReference; path = "Custom UINavigationBar Demo-Info.plist"; sourceTree = "<group>"; };
+		E22C601614337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E22C601814337C38002555F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E22C601A14337C38002555F5 /* Custom UINavigationBar Demo-Prefix.pch */ = {isa = PBXFileReference; path = "Custom UINavigationBar Demo-Prefix.pch"; sourceTree = "<group>"; };
+		E22C601B14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.h */ = {isa = PBXFileReference; path = Custom_UINavigationBar_DemoAppDelegate.h; sourceTree = "<group>"; };
+		E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_UINavigationBar_DemoAppDelegate.m; sourceTree = "<group>"; };
+		E22C601F14337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E22C602114337C38002555F5 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		E22C602214337C38002555F5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E22C602414337C38002555F5 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		E22C602514337C38002555F5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E22C602814337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		E22C602B14337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22C600514337C38002555F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C600D14337C38002555F5 /* UIKit.framework in Frameworks */,
+				E22C600F14337C38002555F5 /* Foundation.framework in Frameworks */,
+				E22C601114337C38002555F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22C5FFD14337C38002555F5 = {
+			isa = PBXGroup;
+			children = (
+				E22C601214337C38002555F5 /* Custom UINavigationBar Demo */,
+				E22C600B14337C38002555F5 /* Frameworks */,
+				E22C600914337C38002555F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22C600914337C38002555F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22C600814337C38002555F5 /* Custom UINavigationBar Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22C600B14337C38002555F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E22C600C14337C38002555F5 /* UIKit.framework */,
+				E22C600E14337C38002555F5 /* Foundation.framework */,
+				E22C601014337C38002555F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22C601214337C38002555F5 /* Custom UINavigationBar Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E22C601B14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.h */,
+				E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */,
+				E22C601E14337C38002555F5 /* MainWindow.xib */,
+				E22C602114337C38002555F5 /* FirstViewController.h */,
+				E22C602214337C38002555F5 /* FirstViewController.m */,
+				E22C602414337C38002555F5 /* SecondViewController.h */,
+				E22C602514337C38002555F5 /* SecondViewController.m */,
+				E22C602714337C38002555F5 /* FirstView.xib */,
+				E22C602A14337C38002555F5 /* SecondView.xib */,
+				E22C601314337C38002555F5 /* Supporting Files */,
+			);
+			path = "Custom UINavigationBar Demo";
+			sourceTree = "<group>";
+		};
+		E22C601314337C38002555F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E22C601414337C38002555F5 /* Custom UINavigationBar Demo-Info.plist */,
+				E22C601514337C38002555F5 /* InfoPlist.strings */,
+				E22C601814337C38002555F5 /* main.m */,
+				E22C601A14337C38002555F5 /* Custom UINavigationBar Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22C600714337C38002555F5 /* Custom UINavigationBar Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22C602F14337C38002555F5 /* Build configuration list for PBXNativeTarget "Custom UINavigationBar Demo" */;
+			buildPhases = (
+				E22C600414337C38002555F5 /* Sources */,
+				E22C600514337C38002555F5 /* Frameworks */,
+				E22C600614337C38002555F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom UINavigationBar Demo";
+			productName = "Custom UINavigationBar Demo";
+			productReference = E22C600814337C38002555F5 /* Custom UINavigationBar Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22C5FFF14337C38002555F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Draconis Software";
+			};
+			buildConfigurationList = E22C600214337C38002555F5 /* Build configuration list for PBXProject "Custom UINavigationBar Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E22C5FFD14337C38002555F5;
+			productRefGroup = E22C600914337C38002555F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22C600714337C38002555F5 /* Custom UINavigationBar Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22C600614337C38002555F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C601714337C38002555F5 /* InfoPlist.strings in Resources */,
+				E22C602014337C38002555F5 /* MainWindow.xib in Resources */,
+				E22C602914337C38002555F5 /* FirstView.xib in Resources */,
+				E22C602C14337C38002555F5 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22C600414337C38002555F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C601914337C38002555F5 /* main.m in Sources */,
+				E22C601D14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m in Sources */,
+				E22C602314337C38002555F5 /* FirstViewController.m in Sources */,
+				E22C602614337C38002555F5 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E22C601514337C38002555F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22C601614337C38002555F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E22C601E14337C38002555F5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22C601F14337C38002555F5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E22C602714337C38002555F5 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22C602814337C38002555F5 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		E22C602A14337C38002555F5 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22C602B14337C38002555F5 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E22C602D14337C38002555F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E22C602E14337C38002555F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E22C603014337C38002555F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom UINavigationBar Demo/Custom UINavigationBar Demo-Prefix.pch";
+				INFOPLIST_FILE = "Custom UINavigationBar Demo/Custom UINavigationBar Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E22C603114337C38002555F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Custom UINavigationBar Demo/Custom UINavigationBar Demo-Prefix.pch";
+				INFOPLIST_FILE = "Custom UINavigationBar Demo/Custom UINavigationBar Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22C600214337C38002555F5 /* Build configuration list for PBXProject "Custom UINavigationBar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22C602D14337C38002555F5 /* Debug */,
+				E22C602E14337C38002555F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22C602F14337C38002555F5 /* Build configuration list for PBXNativeTarget "Custom UINavigationBar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22C603014337C38002555F5 /* Debug */,
+				E22C603114337C38002555F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22C5FFF14337C38002555F5 /* Project object */;
+}
