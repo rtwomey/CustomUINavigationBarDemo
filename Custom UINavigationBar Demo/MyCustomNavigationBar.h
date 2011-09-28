@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  MyCustomNavigationBar.h
 //  Custom UINavigationBar Demo
 //
 //  Created by Ryan Twomey on 9/28/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface MyCustomNavigationBar : UINavigationBar
 
 @end
