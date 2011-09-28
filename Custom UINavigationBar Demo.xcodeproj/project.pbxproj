@@ -14,10 +14,15 @@
 		E22C601914337C38002555F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C601814337C38002555F5 /* main.m */; };
 		E22C601D14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */; };
 		E22C602014337C38002555F5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C601E14337C38002555F5 /* MainWindow.xib */; };
-		E22C602314337C38002555F5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C602214337C38002555F5 /* FirstViewController.m */; };
-		E22C602614337C38002555F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C602514337C38002555F5 /* SecondViewController.m */; };
-		E22C602914337C38002555F5 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C602714337C38002555F5 /* FirstView.xib */; };
-		E22C602C14337C38002555F5 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C602A14337C38002555F5 /* SecondView.xib */; };
+		E22C603614337D5C002555F5 /* DefaultNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C603414337D5C002555F5 /* DefaultNavViewController.m */; };
+		E22C603714337D5C002555F5 /* DefaultNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C603514337D5C002555F5 /* DefaultNavView.xib */; };
+		E22C6044143380DD002555F5 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22C6042143380DD002555F5 /* ResultViewController.m */; };
+		E22C6045143380DD002555F5 /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22C6043143380DD002555F5 /* ResultView.xib */; };
+		E22C604714339094002555F5 /* 1317230828_cat_animal.png in Resources */ = {isa = PBXBuildFile; fileRef = E22C604614339094002555F5 /* 1317230828_cat_animal.png */; };
+		E22C60491433AADE002555F5 /* 1317231631_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = E22C60481433AADE002555F5 /* 1317231631_dog.png */; };
+		E22C604C1433ABB8002555F5 /* 1317237746_onebit_16.png in Resources */ = {isa = PBXBuildFile; fileRef = E22C604A1433ABB8002555F5 /* 1317237746_onebit_16.png */; };
+		E22C604D1433ABB8002555F5 /* 1317237795_twitter-bird2-webtreatsetc.png in Resources */ = {isa = PBXBuildFile; fileRef = E22C604B1433ABB8002555F5 /* 1317237795_twitter-bird2-webtreatsetc.png */; };
+		E22C604F1433AC27002555F5 /* 1317237886_babelfish.png in Resources */ = {isa = PBXBuildFile; fileRef = E22C604E1433AC27002555F5 /* 1317237886_babelfish.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +30,24 @@
 		E22C600C14337C38002555F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E22C600E14337C38002555F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E22C601014337C38002555F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E22C601414337C38002555F5 /* Custom UINavigationBar Demo-Info.plist */ = {isa = PBXFileReference; path = "Custom UINavigationBar Demo-Info.plist"; sourceTree = "<group>"; };
+		E22C601414337C38002555F5 /* Custom UINavigationBar Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Custom UINavigationBar Demo-Info.plist"; sourceTree = "<group>"; };
 		E22C601614337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E22C601814337C38002555F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E22C601A14337C38002555F5 /* Custom UINavigationBar Demo-Prefix.pch */ = {isa = PBXFileReference; path = "Custom UINavigationBar Demo-Prefix.pch"; sourceTree = "<group>"; };
-		E22C601B14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.h */ = {isa = PBXFileReference; path = Custom_UINavigationBar_DemoAppDelegate.h; sourceTree = "<group>"; };
+		E22C601A14337C38002555F5 /* Custom UINavigationBar Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Custom UINavigationBar Demo-Prefix.pch"; sourceTree = "<group>"; };
+		E22C601B14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Custom_UINavigationBar_DemoAppDelegate.h; sourceTree = "<group>"; };
 		E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_UINavigationBar_DemoAppDelegate.m; sourceTree = "<group>"; };
 		E22C601F14337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E22C602114337C38002555F5 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		E22C602214337C38002555F5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E22C602414337C38002555F5 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		E22C602514337C38002555F5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E22C602814337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		E22C602B14337C38002555F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		E22C603314337D5C002555F5 /* DefaultNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultNavViewController.h; sourceTree = "<group>"; };
+		E22C603414337D5C002555F5 /* DefaultNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultNavViewController.m; sourceTree = "<group>"; };
+		E22C603514337D5C002555F5 /* DefaultNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultNavView.xib; sourceTree = "<group>"; };
+		E22C6041143380DD002555F5 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		E22C6042143380DD002555F5 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		E22C6043143380DD002555F5 /* ResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
+		E22C604614339094002555F5 /* 1317230828_cat_animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1317230828_cat_animal.png; sourceTree = "<group>"; };
+		E22C60481433AADE002555F5 /* 1317231631_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1317231631_dog.png; sourceTree = "<group>"; };
+		E22C604A1433ABB8002555F5 /* 1317237746_onebit_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1317237746_onebit_16.png; sourceTree = "<group>"; };
+		E22C604B1433ABB8002555F5 /* 1317237795_twitter-bird2-webtreatsetc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1317237795_twitter-bird2-webtreatsetc.png"; sourceTree = "<group>"; };
+		E22C604E1433AC27002555F5 /* 1317237886_babelfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1317237886_babelfish.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +96,11 @@
 			children = (
 				E22C601B14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.h */,
 				E22C601C14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m */,
-				E22C601E14337C38002555F5 /* MainWindow.xib */,
-				E22C602114337C38002555F5 /* FirstViewController.h */,
-				E22C602214337C38002555F5 /* FirstViewController.m */,
-				E22C602414337C38002555F5 /* SecondViewController.h */,
-				E22C602514337C38002555F5 /* SecondViewController.m */,
-				E22C602714337C38002555F5 /* FirstView.xib */,
-				E22C602A14337C38002555F5 /* SecondView.xib */,
+				E22C603314337D5C002555F5 /* DefaultNavViewController.h */,
+				E22C603414337D5C002555F5 /* DefaultNavViewController.m */,
+				E22C6041143380DD002555F5 /* ResultViewController.h */,
+				E22C6042143380DD002555F5 /* ResultViewController.m */,
+				E22C603214337C63002555F5 /* XIBs */,
 				E22C601314337C38002555F5 /* Supporting Files */,
 			);
 			path = "Custom UINavigationBar Demo";
@@ -105,8 +113,23 @@
 				E22C601514337C38002555F5 /* InfoPlist.strings */,
 				E22C601814337C38002555F5 /* main.m */,
 				E22C601A14337C38002555F5 /* Custom UINavigationBar Demo-Prefix.pch */,
+				E22C604614339094002555F5 /* 1317230828_cat_animal.png */,
+				E22C60481433AADE002555F5 /* 1317231631_dog.png */,
+				E22C604A1433ABB8002555F5 /* 1317237746_onebit_16.png */,
+				E22C604B1433ABB8002555F5 /* 1317237795_twitter-bird2-webtreatsetc.png */,
+				E22C604E1433AC27002555F5 /* 1317237886_babelfish.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E22C603214337C63002555F5 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				E22C601E14337C38002555F5 /* MainWindow.xib */,
+				E22C603514337D5C002555F5 /* DefaultNavView.xib */,
+				E22C6043143380DD002555F5 /* ResultView.xib */,
+			);
+			name = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +184,13 @@
 			files = (
 				E22C601714337C38002555F5 /* InfoPlist.strings in Resources */,
 				E22C602014337C38002555F5 /* MainWindow.xib in Resources */,
-				E22C602914337C38002555F5 /* FirstView.xib in Resources */,
-				E22C602C14337C38002555F5 /* SecondView.xib in Resources */,
+				E22C603714337D5C002555F5 /* DefaultNavView.xib in Resources */,
+				E22C6045143380DD002555F5 /* ResultView.xib in Resources */,
+				E22C604714339094002555F5 /* 1317230828_cat_animal.png in Resources */,
+				E22C60491433AADE002555F5 /* 1317231631_dog.png in Resources */,
+				E22C604C1433ABB8002555F5 /* 1317237746_onebit_16.png in Resources */,
+				E22C604D1433ABB8002555F5 /* 1317237795_twitter-bird2-webtreatsetc.png in Resources */,
+				E22C604F1433AC27002555F5 /* 1317237886_babelfish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +203,8 @@
 			files = (
 				E22C601914337C38002555F5 /* main.m in Sources */,
 				E22C601D14337C38002555F5 /* Custom_UINavigationBar_DemoAppDelegate.m in Sources */,
-				E22C602314337C38002555F5 /* FirstViewController.m in Sources */,
-				E22C602614337C38002555F5 /* SecondViewController.m in Sources */,
+				E22C603614337D5C002555F5 /* DefaultNavViewController.m in Sources */,
+				E22C6044143380DD002555F5 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,22 +225,6 @@
 				E22C601F14337C38002555F5 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		E22C602714337C38002555F5 /* FirstView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E22C602814337C38002555F5 /* en */,
-			);
-			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		E22C602A14337C38002555F5 /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E22C602B14337C38002555F5 /* en */,
-			);
-			name = SecondView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
