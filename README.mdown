@@ -1,0 +1,16 @@
+Custom UINavigationBar Demo
+===========================
+
+This is a simple app that shows two techniques to achieve some level of customization of your UINavigationBar.  This is applicable for both iPhone and iPad apps.
+
+1. Embedded UIView in UINavigationItem's title area
+
+  A UIView is created which contains a UILabel and a UIImageView.  This view is then configured to have a clear background (with opacity turned off) so it looks like the image and label are by themselves in the UINavigationBar.
+  
+  This is useful for most cases where you just want to add an icon or some other customization to your nav bar, while still being able to make changes entirely within the XIB.
+
+2. Subclass UINavigationBar and override drawRect
+
+  Another common way of customizing how a UINavigationBar looks, a subclass is created that overrides drawRect to load a UIImage and display it as the same width & height of the standard nav bar.  The XIB is then updated to point to this subclass instead of the default.
+
+Copyright 2011 Draconis Software, LLC.  MIT License
