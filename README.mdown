@@ -5,6 +5,8 @@ This is a simple app that shows two techniques to achieve some level of
 customization of your UINavigationBar.  This is applicable for both iPhone 
 and iPad apps.
 
+Be sure to check out the companion tutorial: [Custom UINavigationBar: Two Techniques](http://www.iosdevnotes.com/2011/09/custom-uinavigationbars-techniques/)
+
 1. Embedded UIView in UINavigationItem's title area
 
     A UIView is created which contains a UILabel and a UIImageView.  This view 
